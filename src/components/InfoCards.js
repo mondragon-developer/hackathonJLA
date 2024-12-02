@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import picture1 from '../assets/picture_1.jpeg';
-import picture2 from '../assets/picture_2.jpeg';
-
+import picture1 from "../assets/picture_1.jpeg";
+import picture2 from "../assets/picture_2.jpeg";
+import Spline from "@splinetool/react-spline";
 
 const CardsWrapper = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   background: #f5f5f5;
   padding: 2rem 1rem;
@@ -17,7 +18,7 @@ const Card = styled.div`
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 400px;
   text-align: center;
 
   img {
@@ -53,30 +54,44 @@ const Card = styled.div`
   }
 `;
 
+const SplineWrapper = styled.div`
+  width: 800px;
+  height: 300px; /* Adjust to fit */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 const InfoCards = () => (
   <CardsWrapper>
+    {/* First Card */}
     <Card>
       <img src={picture1} alt="Event Details" />
       <h3>Event Details & Registration</h3>
       <p>Join us for an exciting event full of innovation and creativity.</p>
       <a href="#details">Learn More</a>
     </Card>
+
+    {/* 3D Model in the Middle */}
+    <SplineWrapper>
+    <Spline
+        scene="https://prod.spline.design/4N4K6p4zMXyPmQ-a/scene.splinecode" 
+        width={600}
+        height={300}
+      />
+    </SplineWrapper>
+
+    {/* Second Card */}
     <Card>
       <img src={picture2} alt="FAQs" />
       <h3>FAQs</h3>
       <p>Find answers to the most common questions about the Hackathon.</p>
       <a href="#faqs">Read FAQs</a>
     </Card>
-    {/* <Card>
-      <img
-        src="https://via.placeholder.com/300x150"
-        alt="Last Year's Winners"
-      />
-      <h3>Last Year's Winners</h3>
-      <p>Check out the amazing projects from last year’s participants.</p>
-      <a href="#winners">View Winners</a>
-    </Card> */}
   </CardsWrapper>
 );
 
 export default InfoCards;
+
+
+

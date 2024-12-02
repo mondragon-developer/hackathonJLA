@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/logo-hackathon_3.1.png"; // Import the logo
+import logo from "../assets/logo-hackathon_3.1.png";
 
 const HeroWrapper = styled.div`
   background: #ed6842;
@@ -50,11 +50,16 @@ const HeroSection = () => (
     <Logo src={logo} alt="jla hackathon 2025" />
     <HeroTitle></HeroTitle>
     <Subtitle>Thursday, February 6th, 2025</Subtitle>
+    
     <ButtonContainer>
-      <a href="#register">Register</a>
+      <a href="https://buy.stripe.com/fZe5mlcmH5M64VidQQ" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      >Register</a>
       <a href="#learn-more">Learn More</a>
     </ButtonContainer>
   </HeroWrapper>
 );
 
 export default HeroSection;
+

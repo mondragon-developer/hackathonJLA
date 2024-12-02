@@ -47,7 +47,13 @@ const Logo = styled.h1`
 const Header = () => (
   <HeaderWrapper>
     <Logo>JLA Hackathon 2025</Logo>
-    <Button href="#register">REGISTER HERE</Button>
+    <Button 
+      href="https://buy.stripe.com/fZe5mlcmH5M64VidQQ" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      REGISTER HERE
+    </Button>
   </HeaderWrapper>
 );
 
