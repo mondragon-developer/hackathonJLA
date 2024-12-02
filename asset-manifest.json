@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mondragon-developer/hackathonJLA.git/static/css/main.30e5e422.css",
+    "main.js": "/mondragon-developer/hackathonJLA.git/static/js/main.11053751.js",
+    "static/js/453.36ec7b51.chunk.js": "/mondragon-developer/hackathonJLA.git/static/js/453.36ec7b51.chunk.js",
+    "static/media/jla-building.png": "/mondragon-developer/hackathonJLA.git/static/media/jla-building.18d733d0b26b479d166f.png",
+    "static/media/picture_2.jpeg": "/mondragon-developer/hackathonJLA.git/static/media/picture_2.8c19fd8a8b5d87dcb1e3.jpeg",
+    "static/media/fa-solid-900.ttf": "/mondragon-developer/hackathonJLA.git/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
+    "static/media/picture_1.jpeg": "/mondragon-developer/hackathonJLA.git/static/media/picture_1.f106ffeec3774324d311.jpeg",
+    "static/media/logo-hackathon_3.1.png": "/mondragon-developer/hackathonJLA.git/static/media/logo-hackathon_3.1.a9040062d077c1017bab.png",
+    "static/media/fa-brands-400.ttf": "/mondragon-developer/hackathonJLA.git/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
+    "static/media/fa-solid-900.woff2": "/mondragon-developer/hackathonJLA.git/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
+    "static/media/fa-brands-400.woff2": "/mondragon-developer/hackathonJLA.git/static/media/fa-brands-400.fdbb558523a380307689.woff2",
+    "static/media/fa-regular-400.ttf": "/mondragon-developer/hackathonJLA.git/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
+    "static/media/fa-regular-400.woff2": "/mondragon-developer/hackathonJLA.git/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
+    "static/media/fa-v4compatibility.ttf": "/mondragon-developer/hackathonJLA.git/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
+    "static/media/fa-v4compatibility.woff2": "/mondragon-developer/hackathonJLA.git/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
+    "index.html": "/mondragon-developer/hackathonJLA.git/index.html",
+    "main.30e5e422.css.map": "/mondragon-developer/hackathonJLA.git/static/css/main.30e5e422.css.map",
+    "main.11053751.js.map": "/mondragon-developer/hackathonJLA.git/static/js/main.11053751.js.map",
+    "453.36ec7b51.chunk.js.map": "/mondragon-developer/hackathonJLA.git/static/js/453.36ec7b51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e5e422.css",
+    "static/js/main.11053751.js"
+  ]
+}
