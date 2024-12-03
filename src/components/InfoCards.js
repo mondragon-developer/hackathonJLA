@@ -8,9 +8,15 @@ const CardsWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   background: #f5f5f5;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
+
+  @media (max-width: 768px) { /* Tablets and smaller screens */
+      flex-direction: column;
+      gap: 1rem; /* Reduce gap */
+      padding: 1rem; /* Smaller padding */
+    }
 `;
 
 const Card = styled.div`
@@ -52,14 +58,27 @@ const Card = styled.div`
       background: #d45a2e;
     }
   }
+
+  @media (max-width: 768px) { /* Tablets and smaller screens */
+    width: 100%; /* Full width for smaller screens */
+  }
 `;
 
 const SplineWrapper = styled.div`
-  width: 800px;
-  height: 300px; /* Adjust to fit */
+  width: 500px;
+  height: 400px; /* Adjust to fit */
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) { /* Tablets and smaller screens */
+    width: 100%; /* Full width */
+    height: 200px; /* Adjust height for smaller screens */
+  }
+
+  @media (max-width: 480px) { /* Phones */
+    height: 150px; /* Smaller height */
+  }
 `;
 
 const InfoCards = () => (
@@ -75,10 +94,8 @@ const InfoCards = () => (
     {/* 3D Model in the Middle */}
     <SplineWrapper>
     <Spline
-        scene="https://prod.spline.design/4N4K6p4zMXyPmQ-a/scene.splinecode" 
-        width={600}
-        height={300}
-      />
+        scene="https://prod.spline.design/tC4-NRVQLOwDUiWn/scene.splinecode" 
+        />
     </SplineWrapper>
 
     {/* Second Card */}
@@ -92,6 +109,3 @@ const InfoCards = () => (
 );
 
 export default InfoCards;
-
-
-

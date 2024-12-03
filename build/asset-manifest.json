@@ -1,7 +1,15 @@
 {
   "files": {
     "main.css": "/hackathonJLA/static/css/main.a795ce95.css",
-    "main.js": "/hackathonJLA/static/js/main.a70803a7.js",
+    "main.js": "/hackathonJLA/static/js/main.d16a5192.js",
+    "static/js/208.206fd358.chunk.js": "/hackathonJLA/static/js/208.206fd358.chunk.js",
+    "static/js/293.7df31aa3.chunk.js": "/hackathonJLA/static/js/293.7df31aa3.chunk.js",
+    "static/js/917.658ee8ad.chunk.js": "/hackathonJLA/static/js/917.658ee8ad.chunk.js",
+    "static/js/516.39da42d5.chunk.js": "/hackathonJLA/static/js/516.39da42d5.chunk.js",
+    "static/js/519.8ffde2d6.chunk.js": "/hackathonJLA/static/js/519.8ffde2d6.chunk.js",
+    "static/js/946.34e074ac.chunk.js": "/hackathonJLA/static/js/946.34e074ac.chunk.js",
+    "static/js/160.bfbe404b.chunk.js": "/hackathonJLA/static/js/160.bfbe404b.chunk.js",
+    "static/js/23.11cab9f5.chunk.js": "/hackathonJLA/static/js/23.11cab9f5.chunk.js",
     "static/js/453.36ec7b51.chunk.js": "/hackathonJLA/static/js/453.36ec7b51.chunk.js",
     "static/media/jla-building.png": "/hackathonJLA/static/media/jla-building.18d733d0b26b479d166f.png",
     "static/media/picture_2.jpeg": "/hackathonJLA/static/media/picture_2.8c19fd8a8b5d87dcb1e3.jpeg",
@@ -17,11 +25,19 @@
     "static/media/fa-v4compatibility.woff2": "/hackathonJLA/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/hackathonJLA/index.html",
     "main.a795ce95.css.map": "/hackathonJLA/static/css/main.a795ce95.css.map",
-    "main.a70803a7.js.map": "/hackathonJLA/static/js/main.a70803a7.js.map",
+    "main.d16a5192.js.map": "/hackathonJLA/static/js/main.d16a5192.js.map",
+    "208.206fd358.chunk.js.map": "/hackathonJLA/static/js/208.206fd358.chunk.js.map",
+    "293.7df31aa3.chunk.js.map": "/hackathonJLA/static/js/293.7df31aa3.chunk.js.map",
+    "917.658ee8ad.chunk.js.map": "/hackathonJLA/static/js/917.658ee8ad.chunk.js.map",
+    "516.39da42d5.chunk.js.map": "/hackathonJLA/static/js/516.39da42d5.chunk.js.map",
+    "519.8ffde2d6.chunk.js.map": "/hackathonJLA/static/js/519.8ffde2d6.chunk.js.map",
+    "946.34e074ac.chunk.js.map": "/hackathonJLA/static/js/946.34e074ac.chunk.js.map",
+    "160.bfbe404b.chunk.js.map": "/hackathonJLA/static/js/160.bfbe404b.chunk.js.map",
+    "23.11cab9f5.chunk.js.map": "/hackathonJLA/static/js/23.11cab9f5.chunk.js.map",
     "453.36ec7b51.chunk.js.map": "/hackathonJLA/static/js/453.36ec7b51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a795ce95.css",
-    "static/js/main.a70803a7.js"
+    "static/js/main.d16a5192.js"
   ]
 }
