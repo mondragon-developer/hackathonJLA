@@ -24,6 +24,7 @@ const Button = styled.a`
   font-weight: bold;
   border-radius: 5px;
   display: inline-block;
+  box-shadow: 0 4px 6px rgba(237, 105, 66, 0.5);
 
   &:hover {
     background: #d45a2e;
@@ -38,6 +39,8 @@ const Button = styled.a`
 const Logo = styled.h1`
   font-size: 2rem;
   margin: 0; /* Ensures no extra spacing */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
 
   @media (max-width: 480px) {
     font-size: 1.5rem; /* Adjust logo font size */

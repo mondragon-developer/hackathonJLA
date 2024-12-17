@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/logo-hackathon_3.1.png";
+import logo from "../assets/logoH.png";
 
 const SectionWrapper = styled.div`
   background: #ffff;
@@ -101,10 +101,10 @@ const ProgramSection = () => (
         together, collaborate, and create impactful solutions.
       </p>
       <p>
-        We are accepting registrations for all students interested in technology
-        and innovation.
+        We are accepting registrations for all high school students interested in technology
+        and innovation. There are limited spots available!
       </p>
-      <p className="important-text">Registration closes on January 20th</p>
+      <p className="important-text">Registration closes on January 23rd or once capacity has been reached.</p>
     </LeftSection>
 
     {/* Right Section */}
@@ -112,28 +112,25 @@ const ProgramSection = () => (
       <h3>PROGRAM</h3>
       <ul>
         <li>
-          <span>8:30 AM:</span> Arrival
+          <span>8:30 AM:</span> Arrival & Check In
         </li>
         <li>
-          <span>9:00 AM:</span> Everyone Goes to the "Beit Midrash"
+          <span>8:45 AM:</span> Grab & Go Breakfast
         </li>
         <li>
-          <span>9:00 AM - 9:15 AM:</span> Breakfast Carry-On
+          <span>9:00 AM - 9:15 AM:</span> Delivery of Instructions
         </li>
         <li>
-          <span>9:15 AM:</span> Instructions While Breakfast Finishes
+          <span>9:15 AM:</span> Hackathon Begins
         </li>
         <li>
-          <span>9:30 AM:</span> Hackathon Starts
-        </li>
-        <li>
-          <span>11:30 AM:</span> Lunch While You Code Begins
+          <span>11:00 AM:</span> Lunch is Served
         </li>
         <li>
           <span>3:00 PM:</span> Hackathon Hard Stop
         </li>
         <li>
-          <span>3:00 PM - 4:00 PM:</span> Judging
+          <span>3:00 PM - 4:00 PM:</span> Presentations & Judging
         </li>
         <li>
           <span>4:00 PM - 4:30 PM:</span> Awards Ceremony

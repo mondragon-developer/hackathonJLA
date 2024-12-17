@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hackathonJLA/static/css/main.a795ce95.css",
-    "main.js": "/hackathonJLA/static/js/main.d16a5192.js",
+    "main.js": "/hackathonJLA/static/js/main.ab04970a.js",
     "static/js/208.206fd358.chunk.js": "/hackathonJLA/static/js/208.206fd358.chunk.js",
     "static/js/293.7df31aa3.chunk.js": "/hackathonJLA/static/js/293.7df31aa3.chunk.js",
     "static/js/917.658ee8ad.chunk.js": "/hackathonJLA/static/js/917.658ee8ad.chunk.js",
@@ -25,7 +25,7 @@
     "static/media/fa-v4compatibility.woff2": "/hackathonJLA/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/hackathonJLA/index.html",
     "main.a795ce95.css.map": "/hackathonJLA/static/css/main.a795ce95.css.map",
-    "main.d16a5192.js.map": "/hackathonJLA/static/js/main.d16a5192.js.map",
+    "main.ab04970a.js.map": "/hackathonJLA/static/js/main.ab04970a.js.map",
     "208.206fd358.chunk.js.map": "/hackathonJLA/static/js/208.206fd358.chunk.js.map",
     "293.7df31aa3.chunk.js.map": "/hackathonJLA/static/js/293.7df31aa3.chunk.js.map",
     "917.658ee8ad.chunk.js.map": "/hackathonJLA/static/js/917.658ee8ad.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.a795ce95.css",
-    "static/js/main.d16a5192.js"
+    "static/js/main.ab04970a.js"
   ]
 }

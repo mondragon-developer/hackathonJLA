@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import buildingImage from "../assets/jla-building.png"; // Ensure the image is saved in src/assets
+import buildingImage from "../assets/jla-building.png";
+import Spline from '@splinetool/react-spline';
 
 const AboutWrapper = styled.div`
   display: flex;
@@ -71,8 +72,25 @@ const SocialIcons = styled.div`
   }
 `;
 
+const SplineWrapper = styled.div`
+  width: 100%;
+  height: 680px; /* Adjust height as necessary */
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove padding if it affects the design */
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f5a623; /* Replace with the desired background color */
+`;
+
 const AboutJLA = () => (
   <AboutWrapper>
+    {/* <SplineWrapper>
+    <Spline
+        scene="https://prod.spline.design/ZAIK11Z2yx-1xjb3/scene.splinecode" 
+        />
+    </SplineWrapper> */}
     <TextSection>
       <h2>About JLA</h2>
       <p>

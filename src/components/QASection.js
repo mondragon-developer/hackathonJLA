@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
+
 const SectionWrapper = styled.div`
   background: #f5f5f5;
   color: #1e1e4c;
@@ -24,7 +25,7 @@ const Accordion = styled.div`
 `;
 
 const Question = styled.div`
-  background: #1e1e4c;
+  background: ${({ isActive }) => (isActive ? "#ed6842" : "#1e1e4c")};
   color: white;
   padding: 1rem;
   cursor: pointer;
@@ -33,6 +34,7 @@ const Question = styled.div`
   align-items: center;
   font-size: 1.1rem;
   font-weight: bold;
+  transition: background 0.3s ease;
 
   &:hover {
     background: #ed6842;
@@ -185,20 +187,26 @@ const QASection = () => {
   ];
 
   return (
-    <SectionWrapper>
+    <SectionWrapper id="FAQs">
       <Title>Frequently Asked Questions</Title>
       <Accordion>
         {questionsAndAnswers.map((qa, index) => (
           <div key={index}>
-            <Question onClick={() => toggleAnswer(index)}>
-              {qa.question}
-              <span>{activeIndex === index ? "-" : "+"}</span>
-            </Question>
-            <Answer isOpen={activeIndex === index}>{qa.answer}</Answer>
-          </div>
+          <Question
+            isActive={activeIndex === index}
+            onClick={() => toggleAnswer(index)}
+          >
+            {qa.question}
+            <span>{activeIndex === index ? "-" : "+"}</span>
+          </Question>
+          <Answer isOpen={activeIndex === index}>{qa.answer}</Answer>
+        </div>
         ))}
       </Accordion>
+      
     </SectionWrapper>
+    
+
   );
 };
 

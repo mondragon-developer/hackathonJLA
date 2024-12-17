@@ -11,7 +11,7 @@ const CardsWrapper = styled.div`
   gap: 1rem;
   background: #f5f5f5;
   padding: 1rem 1rem;
-
+  
   @media (max-width: 768px) { /* Tablets and smaller screens */
       flex-direction: column;
       gap: 1rem; /* Reduce gap */
@@ -20,11 +20,16 @@ const CardsWrapper = styled.div`
 `;
 
 const Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background: white;
   border-radius: 10px;
+  width: 300px;
+  height: 400px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   text-align: center;
 
   img {
@@ -47,15 +52,16 @@ const Card = styled.div`
     display: block;
     margin: 1rem auto;
     padding: 0.5rem 1rem;
-    background: #ed6842;
+    background: #ed6942;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     width: 80%;
     font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 
     &:hover {
-      background: #d45a2e;
+      background: #242051;
     }
   }
 
@@ -66,9 +72,9 @@ const Card = styled.div`
 
 const SplineWrapper = styled.div`
   width: 500px;
-  height: 400px; /* Adjust to fit */
+  height: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   @media (max-width: 768px) { /* Tablets and smaller screens */
@@ -103,7 +109,7 @@ const InfoCards = () => (
       <img src={picture2} alt="FAQs" />
       <h3>FAQs</h3>
       <p>Find answers to the most common questions about the Hackathon.</p>
-      <a href="#faqs">Read FAQs</a>
+      <a href="#FAQs">Read FAQs</a>
     </Card>
   </CardsWrapper>
 );
