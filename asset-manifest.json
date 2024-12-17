@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hackathonJLA/static/css/main.a795ce95.css",
-    "main.js": "/hackathonJLA/static/js/main.ab04970a.js",
+    "main.js": "/hackathonJLA/static/js/main.11889332.js",
     "static/js/208.206fd358.chunk.js": "/hackathonJLA/static/js/208.206fd358.chunk.js",
     "static/js/293.7df31aa3.chunk.js": "/hackathonJLA/static/js/293.7df31aa3.chunk.js",
     "static/js/917.658ee8ad.chunk.js": "/hackathonJLA/static/js/917.658ee8ad.chunk.js",
@@ -11,11 +11,11 @@
     "static/js/160.bfbe404b.chunk.js": "/hackathonJLA/static/js/160.bfbe404b.chunk.js",
     "static/js/23.11cab9f5.chunk.js": "/hackathonJLA/static/js/23.11cab9f5.chunk.js",
     "static/js/453.36ec7b51.chunk.js": "/hackathonJLA/static/js/453.36ec7b51.chunk.js",
+    "static/media/logoH.png": "/hackathonJLA/static/media/logoH.cf57cfc2cda509dae62b.png",
     "static/media/jla-building.png": "/hackathonJLA/static/media/jla-building.18d733d0b26b479d166f.png",
     "static/media/picture_2.jpeg": "/hackathonJLA/static/media/picture_2.8c19fd8a8b5d87dcb1e3.jpeg",
     "static/media/fa-solid-900.ttf": "/hackathonJLA/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
     "static/media/picture_1.jpeg": "/hackathonJLA/static/media/picture_1.f106ffeec3774324d311.jpeg",
-    "static/media/logo-hackathon_3.1.png": "/hackathonJLA/static/media/logo-hackathon_3.1.a9040062d077c1017bab.png",
     "static/media/fa-brands-400.ttf": "/hackathonJLA/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
     "static/media/fa-solid-900.woff2": "/hackathonJLA/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
     "static/media/fa-brands-400.woff2": "/hackathonJLA/static/media/fa-brands-400.fdbb558523a380307689.woff2",
@@ -25,7 +25,7 @@
     "static/media/fa-v4compatibility.woff2": "/hackathonJLA/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/hackathonJLA/index.html",
     "main.a795ce95.css.map": "/hackathonJLA/static/css/main.a795ce95.css.map",
-    "main.ab04970a.js.map": "/hackathonJLA/static/js/main.ab04970a.js.map",
+    "main.11889332.js.map": "/hackathonJLA/static/js/main.11889332.js.map",
     "208.206fd358.chunk.js.map": "/hackathonJLA/static/js/208.206fd358.chunk.js.map",
     "293.7df31aa3.chunk.js.map": "/hackathonJLA/static/js/293.7df31aa3.chunk.js.map",
     "917.658ee8ad.chunk.js.map": "/hackathonJLA/static/js/917.658ee8ad.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.a795ce95.css",
-    "static/js/main.ab04970a.js"
+    "static/js/main.11889332.js"
   ]
 }
