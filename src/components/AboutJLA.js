@@ -11,7 +11,9 @@ const AboutWrapper = styled.div`
   padding: 2rem;
   align-items: center;
   justify-content: center;
+  position: relative; /* Set relative positioning for absolute children */
 `;
+
 
 const TextSection = styled.div`
   flex: 1;
@@ -72,25 +74,47 @@ const SocialIcons = styled.div`
   }
 `;
 
-const SplineWrapper = styled.div`
-  width: 100%;
-  height: 680px; /* Adjust height as necessary */
-  justify-content: center;
-  align-items: center;
-  padding: 0; /* Remove padding if it affects the design */
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #f5a623; /* Replace with the desired background color */
+const ButtonContainer = styled.div`
+  position: absolute; /* Position it relative to the parent container */
+  top: 1rem; /* Adjust distance from the top */
+  left: 50%; /* Start positioning from center */
+  transform: translateX(-50%); /* Center it horizontally */
+
+  a {
+    font-size: 1.5rem;
+    background: white;
+    color: #ed6842;
+    padding: 0.4rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background: #242051;
+      color: white;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 1.2rem;
+      padding: 0.5rem 1.2rem;
+    }
+  }
 `;
 
 const AboutJLA = () => (
+ 
   <AboutWrapper>
-    {/* <SplineWrapper>
-    <Spline
-        scene="https://prod.spline.design/ZAIK11Z2yx-1xjb3/scene.splinecode" 
-        />
-    </SplineWrapper> */}
+   <ButtonContainer>
+      <a
+        href="https://buy.stripe.com/fZe5mlcmH5M64VidQQ"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Register Here
+      </a>
+  </ButtonContainer>
+  
     <TextSection>
       <h2>About JLA</h2>
       <p>
@@ -106,7 +130,7 @@ const AboutJLA = () => (
       <p>
         975 NW 95th Street, Miami FL, 33150
         <br />
-        info@jlamiami.org | (305) 305-306-2660
+        info@jlamiami.org | (305)-306-2660
       </p>
       <SocialIcons>
         <a

@@ -10,30 +10,61 @@ const HeroWrapper = styled.div`
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
+
+  @media (max-width: 480px) {
+    padding: 1rem; /* Reduce padding on very small screens */
+  }
 `;
 
 const Logo = styled.img`
-  width: 80%;
+  width: 40%;
   max-width: 800px;
   height: auto;
-  margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+    width: 60%; /* Increase logo size for tablets */
+  }
+
+  @media (max-width: 480px) {
+    width: 80%; /* Further reduce logo size on small devices */
+  }
 `;
 
 const HeroTitle = styled.h1`
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 0rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   padding: 0.8rem 2rem;
+  background: #242051;
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem; /* Slightly smaller for tablets */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem; /* Smaller font for mobile */
+    padding: 0.5rem 1.5rem; /* Adjust padding */
+  }
 `;
 
 const Subtitle = styled.p`
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   padding: 0.8rem 2rem;
+  background: #242051;
+
+  @media (max-width: 768px) {
+    font-size: 1.2rem; /* Smaller font size for tablets */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem; /* Small font for mobile */
+    padding: 0.5rem 1.5rem; /* Reduce padding */
+  }
 `;
 
 const ButtonContainer = styled.div`
@@ -42,6 +73,7 @@ const ButtonContainer = styled.div`
   gap: 1rem;
 
   a {
+    font-size: 1.5rem;
     background: white;
     color: #ed6842;
     padding: 0.8rem 2rem;
@@ -54,6 +86,11 @@ const ButtonContainer = styled.div`
       background: #242051;
       color: white;
     }
+     
+    @media (max-width: 480px) {
+      font-size: 1.2rem; /* Reduce button font size */
+      padding: 0.5rem 1.2rem; /* Smaller padding for mobile */
+    }
   }
 `;
 
@@ -61,7 +98,7 @@ const ButtonContainer = styled.div`
 const HeroSection = () => (
   <HeroWrapper>
     <Logo src={logo} alt="" />
-    <HeroTitle>JLA Hackathon</HeroTitle>
+    <HeroTitle>Hackathon 2025</HeroTitle>
     <Subtitle>Thursday, February 6th, 2025</Subtitle>
 
     <ButtonContainer>
@@ -70,9 +107,8 @@ const HeroSection = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Register
+        Register Here
       </a>
-      <a href="#learn-more">Learn More</a>
     </ButtonContainer>
   </HeroWrapper>
 );

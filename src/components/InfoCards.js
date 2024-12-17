@@ -94,7 +94,7 @@ const InfoCards = () => (
       <img src={picture1} alt="Event Details" />
       <h3>Event Details & Registration</h3>
       <p>Join us for an exciting event full of innovation and creativity.</p>
-      <a href="#details">Learn More</a>
+      <a href="#info">Learn More</a>
     </Card>
 
     {/* 3D Model in the Middle */}

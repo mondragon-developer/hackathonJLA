@@ -4,15 +4,32 @@ import styled from "styled-components";
 
 const SectionWrapper = styled.div`
   background: #f5f5f5;
-  color: #1e1e4c;
+  color: #4353A4;
   padding: 2rem;
+
+  @media (max-width: 768px) {
+  padding: 1rem; /* Reduce padding for tablets */
+}
+
+@media (max-width: 480px) {
+  padding: 0.5rem; /* Smaller padding for phones */
+}
 `;
 
 const Title = styled.h2`
   text-align: center;
-  color: #ed6842;
+  color: #F5C04F;
   font-size: 2rem;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+  font-size: 1.8rem; /* Slightly smaller for tablets */
+}
+
+@media (max-width: 480px) {
+  font-size: 1.5rem; /* Smaller font for phones */
+  margin-bottom: 1rem;
+}
 `;
 
 const Accordion = styled.div`
@@ -22,10 +39,18 @@ const Accordion = styled.div`
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: white;
+
+  @media (max-width: 768px) {
+  max-width: 90%; /* Adjust width for tablets */
+}
+
+@media (max-width: 480px) {
+  max-width: 100%; /* Full width for phones */
+}
 `;
 
 const Question = styled.div`
-  background: ${({ isActive }) => (isActive ? "#ed6842" : "#1e1e4c")};
+  background: ${({ isActive }) => (isActive ? "#F5C04F" : "#4353A4")};
   color: white;
   padding: 1rem;
   cursor: pointer;
@@ -36,8 +61,18 @@ const Question = styled.div`
   font-weight: bold;
   transition: background 0.3s ease;
 
+  @media (max-width: 768px) {
+  padding: 0.8rem; /* Reduce padding */
+  font-size: 1rem; /* Smaller font size for tablets */
+}
+
+@media (max-width: 480px) {
+  padding: 0.5rem; /* Small padding for phones */
+  font-size: 0.9rem; /* Smaller font size */
+}
+
   &:hover {
-    background: #ed6842;
+    background: #F5C04F;
   }
 
   svg {
@@ -47,11 +82,20 @@ const Question = styled.div`
 
 const Answer = styled.div`
   background: #f5f5f5;
-  color: #1e1e4c;
+  color: #242051;
   padding: 1rem;
   font-size: 0.95rem;
   line-height: 1.5;
   display: ${({ isOpen }) => (isOpen ? "block" : "none")};
+
+  @media (max-width: 768px) {
+  padding: 0.8rem; /* Reduce padding */
+}
+
+@media (max-width: 480px) {
+  padding: 0.5rem; /* Small padding for phones */
+  font-size: 0.85rem; /* Smaller font size for phones */
+}
 `;
 
 const QASection = () => {
@@ -211,4 +255,3 @@ const QASection = () => {
 };
 
 export default QASection;
-
