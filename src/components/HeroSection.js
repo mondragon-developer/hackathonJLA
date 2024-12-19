@@ -103,7 +103,7 @@ const HeroSection = () => (
 
     <ButtonContainer>
       <a
-        href="https://buy.stripe.com/fZe5mlcmH5M64VidQQ"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfgVi0S6Sw-xtTxd8BFq4WKW8LPLq_ZzZuxtgZimH_r1sSVfg/viewform?usp=sf_link"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import logo from "../assets/logo.png"; // Adjusted import path
 
 const HeaderWrapper = styled.div`
   background: #1e1e4c;
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   display: flex;
   align-items: center; /* Vertically centers items */
-  justify-content: center;
+  justify-content: center; /* Centers items horizontally */
 
   @media (max-width: 768px) {
     flex-direction: column; /* Stack elements vertically on smaller screens */
@@ -16,18 +17,19 @@ const HeaderWrapper = styled.div`
   }
 `;
 
-const Logo = styled.h1`
-  font-size: 2rem;
-  margin: 0; /* Ensures no extra spacing */
+const LogoImage = styled.img`
+  height: 200px;
+  width: auto; 
+  margin: 0;
 
   @media (max-width: 480px) {
-    font-size: 1.5rem; /* Adjust logo font size */
+    height: 120px; /* Adjust size for smaller screens */
   }
 `;
 
 const Header = () => (
   <HeaderWrapper>
-    <Logo>Jewish Leadership Academy</Logo>
+    <LogoImage src={logo} alt="Logo" />
   </HeaderWrapper>
 );
 

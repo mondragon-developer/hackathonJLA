@@ -108,7 +108,7 @@ const InfoCards = () => (
     <Card>
       <img src={picture2} alt="FAQs" />
       <h3>FAQs</h3>
-      <p>Find answers to the most common questions about the Hackathon.</p>
+      <p>Find answers to commonly asked questions.</p>
       <a href="#FAQs">Read FAQs</a>
     </Card>
   </CardsWrapper>

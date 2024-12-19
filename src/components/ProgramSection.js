@@ -47,6 +47,7 @@ const LeftSection = styled.div`
   }
 
   p {
+    text-align: center;
     font-size: 1rem;
     color: #2c3e50; /* Darker blue tone for small text */
     margin-bottom: 1rem;
@@ -140,9 +141,9 @@ const ProgramSection = () => {
         Any school with students in 8th grade and above is eligible to participate with teams of no more than four students per team ($50 per team). Additionally, each team/school must be accompanied by a chaperone for the entire duration of the activity.
         </p>
         <p>
-        It is expected that participants have some experience with any programming language (e.g., Python, C#, Java, JavaScript, HTML/CSS...).      </p>
+        Participants must have some experience with any programming language (e.g., Python, C#, Java, JavaScript, HTML/CSS...).      </p>
         <p>
-        The Hackathon is taking place at the Jewish Leadership School in Miami, located at: <strong><CopyText textToCopy={address} />  Phone Number: 305-306-2660.</strong>
+        The Hackathon is taking place at the Jewish Leadership Academy located at: <strong><CopyText textToCopy={address} />  Phone Number: 305-306-2660</strong>
         </p>
         <div>
         <MyMapIframe />  
@@ -173,7 +174,7 @@ const ProgramSection = () => {
             <span>3:00 - 4:00 pm:</span> Presentations & Judging
           </li>
           <li>
-            <span>4:00 PM - 4:30 PM:</span> Awards Ceremony
+            <span>4:00 - 4:30 pm:</span> Awards Ceremony
           </li>
         </ul>
       </RightSection>

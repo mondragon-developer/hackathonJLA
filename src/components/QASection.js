@@ -204,7 +204,7 @@ const QASection = () => {
     {
       question: "How will feedback be provided after the event?",
       answer:
-        "Judges will provide brief feedback after presentations. Detailed feedback will be shared via email post-event.",
+        "Judges will provide brief feedback after presentations. Detailed feedback will be shared via email postevent.",
     },
     {
       question: "How will teams receive their T-shirts and badges during registration?",
@@ -220,7 +220,7 @@ const QASection = () => {
     {
       question: "What are the exact kosher and dietary restrictions for food?",
       answer:
-        "Kosher food will be provided and is suitable for those requiring it. For those who do not require kosher food, it is still safe to eat. Please notify the organizers in advance of any allergies or dietary restrictions.",
+        "Our Campus adheres to Kosher dietary laws. Breakfast, snacks, and lunch will be provided to all participants. Please notify organizers in the registration form of any dietary restrictions prior the event",
     },
     {
       question:
