@@ -1,5 +1,17 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
+@font-face {
+  font-family: "RamillasLight";
+  src: url("./assets/fonts/TTTRamillasLightRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "RamillasLight", sans-serif;
+}
+
+
 .App {
   text-align: center;
 }

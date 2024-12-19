@@ -5,6 +5,9 @@ import InfoCards from "./components/InfoCards";
 import ProgramSection from "./components/ProgramSection";
 import QASection from "./components/QASection";
 import AboutJLA from "./components/AboutJLA";
+import './assets/fonts/TTTRamillasLightRegular.ttf';
+import './App.css';
+
 
 
 const App = () => (
