@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hackathonJLA/static/css/main.45c4ec30.css",
-    "main.js": "/hackathonJLA/static/js/main.0bff30c3.js",
+    "main.css": "/hackathonJLA/static/css/main.e9867745.css",
+    "main.js": "/hackathonJLA/static/js/main.650cc1cb.js",
     "static/js/208.206fd358.chunk.js": "/hackathonJLA/static/js/208.206fd358.chunk.js",
     "static/js/293.4bc5906f.chunk.js": "/hackathonJLA/static/js/293.4bc5906f.chunk.js",
     "static/js/917.8251ff12.chunk.js": "/hackathonJLA/static/js/917.8251ff12.chunk.js",
@@ -19,14 +19,15 @@
     "static/media/fa-brands-400.ttf": "/hackathonJLA/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/logo.png": "/hackathonJLA/static/media/logo.c2af1a634cb78e8144bf.png",
     "static/media/fa-solid-900.woff2": "/hackathonJLA/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/TTTRamillasLightRegular.ttf": "/hackathonJLA/static/media/TTTRamillasLightRegular.3ddbd33be0cc2e93a491.ttf",
     "static/media/fa-brands-400.woff2": "/hackathonJLA/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/fa-regular-400.ttf": "/hackathonJLA/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/fa-regular-400.woff2": "/hackathonJLA/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/hackathonJLA/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/hackathonJLA/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/hackathonJLA/index.html",
-    "main.45c4ec30.css.map": "/hackathonJLA/static/css/main.45c4ec30.css.map",
-    "main.0bff30c3.js.map": "/hackathonJLA/static/js/main.0bff30c3.js.map",
+    "main.e9867745.css.map": "/hackathonJLA/static/css/main.e9867745.css.map",
+    "main.650cc1cb.js.map": "/hackathonJLA/static/js/main.650cc1cb.js.map",
     "208.206fd358.chunk.js.map": "/hackathonJLA/static/js/208.206fd358.chunk.js.map",
     "293.4bc5906f.chunk.js.map": "/hackathonJLA/static/js/293.4bc5906f.chunk.js.map",
     "917.8251ff12.chunk.js.map": "/hackathonJLA/static/js/917.8251ff12.chunk.js.map",
@@ -38,7 +39,7 @@
     "453.36ec7b51.chunk.js.map": "/hackathonJLA/static/js/453.36ec7b51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45c4ec30.css",
-    "static/js/main.0bff30c3.js"
+    "static/css/main.e9867745.css",
+    "static/js/main.650cc1cb.js"
   ]
 }
